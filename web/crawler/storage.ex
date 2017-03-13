@@ -41,7 +41,7 @@ defmodule TokyoexHandsonDemo.Crawler.Storage do
 
   def store_to_db do
     Logger.debug "--- Save storage to DB ---"
-    dump
+    dump()
     |> Enum.each(fn {url, data} ->
       store_article_to_db(url, data)
     end)

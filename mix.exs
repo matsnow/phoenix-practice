@@ -41,7 +41,7 @@ defmodule TokyoexHandsonDemo.Mixfile do
      {:cowboy, "~> 1.0"},
      {:httpoison, "~> 0.9.0"}, # HTTP Client
      {:floki, "~> 0.9.0"},     # HTTP Parser
-     {:exrm, "~> 1.0.6"},
+     {:distillery, "~> 1.0"}
     ]
   end
 
